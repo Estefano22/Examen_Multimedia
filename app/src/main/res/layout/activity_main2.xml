@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/vocal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:imeOptions="actionSend"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Botón 1"/>
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Botón 2"/>
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Botón 3"/>
+
+
+
+</LinearLayout>
